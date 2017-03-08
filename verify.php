@@ -7,7 +7,7 @@ $access_token = '2/2pH5VW3ug1FalmM9cw8GxR8vNZ/OuaywBlMWM2JgB/l
 
 $url = 'https://api.line.me/v1/oauth/verify';
 
-$headers = array('r1s0VtFGNoTaGt4PofFerg9X1ro5Wrtw1XwkSPZSh4e' . $access_token);
+$headers = array('U27fc888c4fd40c38e98dd576f9cd53e3' . $access_token);
 
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
